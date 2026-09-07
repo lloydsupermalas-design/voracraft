@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VoraCraft</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="navbar">
+    <div class="logo">Vora<span>Craft</span></div>
+    <div class="status">MINECRAFT BEDROCK</div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <p class="badge">MINECRAFT BEDROCK CONTENT</p>
+      <h1>Explore Minecraft Your Way</h1>
+      <p class="subtitle">
+        Temukan addon, texture, map, skin, client, dan berbagai konten Minecraft Bedrock.
+      </p>
+
+      <div class="search-box">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Cari konten..."
+        >
+      </div>
+    </section>
+
+    <section class="categories">
+      <button class="category active" data-category="All">All</button>
+      <button class="category" data-category="Addon">Addon</button>
+      <button class="category" data-category="Texture">Texture</button>
+      <button class="category" data-category="Map">Map</button>
+      <button class="category" data-category="Skin">Skin</button>
+      <button class="category" data-category="Client">Client</button>
+      <button class="category" data-category="Lainnya">Lainnya</button>
+    </section>
+
+    <section id="contentGrid" class="content-grid">
+      <div class="loading">Memuat konten...</div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 VoraCraft</p>
+  </footer>
+
+  <script type="module" src="app.js"></script>
+
+</body>
+  </html>
